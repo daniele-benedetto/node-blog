@@ -1,0 +1,20 @@
+
+#post-title {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#post-date {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 1px solid #f1f4f8;
+    border-bottom: 1px solid #f1f4f8;
+}
+
+#post-content {
+    white-space: pre-line;
+    padding-top: 24px;
+    line-height: 1.6;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>New Post</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/style/style.css">
+        <link rel="stylesheet" href="assets/style/form.css">
+    </head>
+    <body class="new-post-page">
+        <div class="container new-post-page">
+            <header>
+                <div class="header-container">
+                    <div class="header-blog-text">
+                        <div class="profile-name">New Post</div>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="container-post">
+                    <div class="navigation">
+                        <a class="back-btn" href="index.html">Back</a>
+                    </div>
+                    <div class="form-container">
+                        <form>
+                            <input id="form-post-title" type="text" name="post-title" placeholder="Post Title"/>
+                            <textarea id="form-post-content" name="post-content" placeholder="Post Content"></textarea>
+                            <div>
+                                <label>Choose Image</label>
+                                <input type="file" name="post-image" accept="image/*">
+                            </div>
+                            <button id="form-post-submit" type="button" onclick="submitNewPost()">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <p>Made with ❤️ by Daniele Benedetto</p>
+            </footer>
+        </div>
+        <script src="assets/js/new-post.js"></script>
+    </body>
+</html>
